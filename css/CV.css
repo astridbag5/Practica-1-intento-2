@@ -1,0 +1,123 @@
+.title-main {
+    color: rgb(255, 255, 255);
+    font-family: "Outfit";
+    font-weight: 600;
+    font-style: bold;
+    padding: 20px;
+    background-color: #0e0ed0;
+    margin: 0%;
+}
+
+.title-secondary {
+    font-family: "Fustat";
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #0e0ed0,#875fed );
+    padding: 10px;
+    margin: 0%;
+    
+
+}
+.title-section {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #0e0ed0,#875fed );
+    font-family: "Outfit";
+    padding: 15px;
+
+    }
+
+p {
+    font-family: "Fustat";
+    color: rgb(14, 14, 208);
+    padding: 5px;
+}
+li {
+    font-family: "Fustat";
+    color: rgb(14, 14, 208);
+    padding: 5px;
+}
+
+aside {
+    color: rgb(255, 255, 255);
+    font-family: "Fustat";
+    font-weight: 600;
+    font-style: bold;
+   
+}
+
+h3 {
+    color: rgb(14, 14, 208);
+    font-family: "Outfit";
+}
+
+.intro {
+    color: #f5f3ff;
+    text-align: center;
+    font-family: "Fustat";
+    padding: 20px;
+
+}
+
+.contact {
+    color: aliceblue;
+    font-family: "Outfit";
+    margin: 0% auto;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.infos {
+    color: #d891ff;
+    font-family: "Fustat";
+    margin: 0% auto;
+    padding-left: 10px; 
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+
+.bi-telephone-fill {
+    align-content: end;
+   position: relative;
+   margin-left: 35px;
+   color: #d891ff;
+}
+
+.bi-envelope-at-fill {
+    align-content: end;
+   position: relative;
+   margin-left: 35px;
+   color: #d891ff;
+}
+
+.bi-instagram {
+    align-content: end;
+   position: relative;
+   margin-left: 35px;
+   color: #d891ff;
+}
+
+.bi-linkedin {
+    align-content: end;
+   position: relative;
+   margin-left: 35px;
+   color: #d891ff;
+}
+
+.col-9 {
+    background-color: #f5f3ff;
+}
+
+.photo {
+    border-radius: 50%;
+    object-fit: cover;  
+    display: block;
+    margin: 0% auto;
+    padding-top: 25px;
+}
+
+.col-3 {
+
+    background: linear-gradient(to bottom,#0d0dd1, #875fed);
+    
+}
