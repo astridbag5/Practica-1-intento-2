@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ded registro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style=" background-color: rgb(134, 17, 17);">
+    <div class="container"></div>
+        <div class="row">
+            <div class="col">
+                <div class="card shadow p-4 mx-auto" style="max-width: 550px">
+    <h1>Formulario de Registro</h1>
+    <form action="Form.html" method="post">
+        
+<!--nombre-->
+        <div class="mb-3">
+        <label for="txtnombre" class="form-label">Nombre Completo</label>
+        <input  type="text" class="form-control"  id="txtnombre"name="txtnombre" 
+            placeholder="Ej. James Bond">
+        </div>
+<!--correo-->
+        <div class="mb-3">
+        <label for="textmail" class="form-label">Dirección de correo:</label>
+        <div class="input-group">
+        <span class="input-group-text">@</span>
+        <input type="email" class="form-control" id="txtemail" name="txtemail" 
+            placeholder="correofalsete@hotmail.com" required>
+            </div>
+        </div>
+<!--telefono-->
+        <div class="mb-3">
+        <label for="txttel" class="form-label">Número de telefono:</label>
+        <input type="tel" class="form-control" id="txttel" name="txttel" 
+            pattern="[0-9]{10}" 
+            placeholder="10 dígitos (Ej. 812344r7293)">
+        </div>
+<!--contraseña-->
+        <div class="mb-3">
+        <label for="txtpassword" class="form-label">Ingrese una Contraseña</label>
+        <input type="password" class="form-control" id="txtpassword" name="txtpassword"
+            placeholder="Mínimo 8 caracteres" required>
+        </div>
+
+<!--Repetir contraseña-->
+        <div class="mb-3">
+        <label for="txtpassword" class="form-label">Confirmar Contraseña</label>
+        <input type="password" class="form-control" id="txtpassword" name="txtpassword"
+            placeholder="Repite tu Contraseña" required>
+        </div>
+
+<!--fecha nacimiento-->
+
+        <div class="mb-3">
+        <label for="txtdate">Selecciona tu fecha de nacimiento</label>
+        <input type="date" class="form-control" id="txtdate" name="txtdate">
+        </div>
+
+<!--genero-->
+
+        <div class="form-check">
+            <p>Género</p>
+            <input type="radio" class="form-check-input" id="hombre" name="genero" value="hombre">
+            <label for="hombre" class="form-check-label">Hombre</label>
+        </div>
+        
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="mujer" name="genero" value="mujer">
+            <label for="mujer" class="form-check-label">Mujer</label>
+        </div>
+
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="otro" name="genero" value="otro">
+            <label for="otro" class="form-check-label">Otro</label>
+        </div>
+
+<!--terminos y condiciones-->
+
+        <div class="form-check mt-3 mb-3">
+            <input type="checkbox" class="form-check-input" id="terminos" name="terminos" required>
+            <label for="terminos" class="form-check-label">Acepto los términos y condiciones</label>
+        </div>
+
+<!--boton de registro-->
+
+<div class="mb-3">
+        <input type="submit" class="btn btn-danger btn-lg" value="Registrar">
+    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
